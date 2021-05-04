@@ -1,4 +1,4 @@
-package db;
+package com.example.pandaweather.db;
 
 import org.litepal.crud.LitePalSupport;
 

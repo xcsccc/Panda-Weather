@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <litepal>
     <dbname value = "panda_weather"/>
     <version value="1"/>
     <list>
-        <mapping class="com.example.db.City"/>
-        <mapping class="com.example.db.County"/>
-        <mapping class="com.example.db.Province"/>
+        <mapping class = "com.example.pandaweather.db.City"/>
+        <mapping class = "com.example.pandaweather.db.County"/>
+        <mapping class = "com.example.pandaweather.db.Province"/>
     </list>
 </litepal>

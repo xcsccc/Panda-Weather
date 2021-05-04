@@ -11,10 +11,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.button);
-
-        button.setOnClickListener(v -> {
-            v.animate().translationX(-100).getDuration();
-        });
     }
 }
